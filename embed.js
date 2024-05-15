@@ -16,6 +16,7 @@
   const currentScript = scripts[scripts.length - 1]
   const params = getQueryParams(currentScript)
 
+  console.log('PARAMS: ', params)
   const iframe = document.createElement('iframe')
   iframe.src =
     'https://customerhearingsystem.netlify.app?account=' +
